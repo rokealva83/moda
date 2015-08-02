@@ -1,0 +1,176 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+    color: #4c4c4c;
+}
+
+a:hover {
+    color: #FF5353;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #FF5353;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+select {
+    border: none;
+    color: #FF5353;
+}
+
+.wrapper {
+    width: 1256px;
+    margin: auto;
+    position: relative;
+}
+
+.header {
+    border-top: solid 2px #FF5353;
+}
+
+.logo {
+    padding-left: 159px;
+    margin-top: -2px;
+    float: left;
+}
+
+.nav {
+    float: left;
+}
+
+.nav-top {
+    font-size: 12px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 12px 0px 11px 0px;
+    margin-left: 24px;
+    width: 933px;
+}
+
+.nav-top-left {
+    float: left;
+}
+
+.nav-top-left span {
+    margin-left: 9px;
+}
+
+.nav-top-right {
+    float: right;
+    padding-right: 166px;
+}
+
+.nav-top-right span {
+    margin: 0px 2px 0 1px;
+}
+
+.name-menu {
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-bottom {
+    padding: 19px 0 0 26px;
+}
+
+.nav-bottom ul {
+    padding: 0
+}
+
+.name-menu {
+    padding: 0 18px 0 18px;
+}
+
+.big-photo {
+    border-bottom: solid 2px #FF5353;
+    width: 1258px;
+}
+
+.slider-box {
+    margin: 35px auto;
+    width: 930px;
+}
+
+.carousel-element {
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 173px;
+}
+
+.image {
+    border: 4px solid #ffffff;
+}
+
+.slick-prev, .slick-next {
+    background-color: rgba(168, 0, 0, 0.16);
+    padding: 3px 2px 3px 2px;
+    width: 24px;
+    height: 24px;
+    top: 110%;
+    border-radius: 15px;
+}
+
+.slick-prev {
+    left: 880px;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(175, 0, 0, 0.74);
+}
+.slick-prev:focus, .slick-next:focus {
+    background-color: rgba(160, 0, 0, 0.58);
+}
+
+.text-slide-1, .text-slide-2, .text-slide-3 {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    margin: -119px 0 0 13px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #272626, 0 0 0 grey;
+    width: 150px;
+}
+
+.text-slide-1 {
+    margin: -114px 0 0 13px;
+}
+
+.text-slide-2 {
+    margin: -103px 0 0 20px;
+    text-align: center;
+}
+
+.text-slide-3 {
+    margin: -100px 0 0 26px;
+}
+
+.percent {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.off {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.percent-description {
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 100;
+    margin-top: 0;
+}
+
