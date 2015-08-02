@@ -18,11 +18,16 @@ a:focus {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 select {
     border: none;
     color: #FF5353;
+}
+
+h4 {
+    font-size: 18px;
 }
 
 .wrapper {
@@ -48,9 +53,9 @@ select {
 .nav-top {
     font-size: 12px;
     border-bottom: 1px solid rgb(238, 238, 238);
-    padding: 12px 0px 11px 0px;
+    padding: 12px 0 11px 0;
     margin-left: 24px;
-    width: 933px;
+    width: 930px;
 }
 
 .nav-top-left {
@@ -67,7 +72,7 @@ select {
 }
 
 .nav-top-right span {
-    margin: 0px 2px 0 1px;
+    margin: 0 2px 0 1px;
 }
 
 .name-menu {
@@ -102,15 +107,20 @@ select {
     float: left;
     padding: 0 10px 0 10px;
     height: 173px;
+
 }
 
 .image {
-    border: 4px solid #ffffff;
+    box-shadow: 2px 2px 3px 0 #959494;
+}
+
+.image:hover {
+    box-shadow: 3px 3px 4px 0 rgba(255, 83, 83, 0.37);
 }
 
 .slick-prev, .slick-next {
     background-color: rgba(168, 0, 0, 0.16);
-    padding: 3px 2px 3px 2px;
+    padding: 3px 2px 0 2px;
     width: 24px;
     height: 24px;
     top: 110%;
@@ -128,6 +138,7 @@ select {
 .slick-prev:hover, .slick-next:hover {
     background-color: rgba(175, 0, 0, 0.74);
 }
+
 .slick-prev:focus, .slick-next:focus {
     background-color: rgba(160, 0, 0, 0.58);
 }
@@ -174,3 +185,78 @@ select {
     margin-top: 0;
 }
 
+.products-box {
+    width: 950px;
+    margin: auto;
+}
+
+.products-box h4 {
+    margin: 5px 0 0 7px;
+}
+
+.element-box {
+    margin-top: 33px;
+}
+
+.products-element {
+    float: left;
+    margin: 0 6px 10px 5px;
+    box-shadow: 1px 1px 2px 0 #959494;
+}
+
+.products-element:hover {
+    box-shadow: 3px 3px 4px 0 rgba(255, 83, 83, 0.37);
+}
+
+.last-element {
+    margin: 0 0 0 5px;
+}
+
+.sales, .discount {
+    margin: 4px 0 0 4px;
+    background-color: transparent;
+    width: 83px;
+    height: 67px;
+    position: absolute;
+    border-width: 39px 48px 31px 42px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+.sales {
+    border-color: #F00 transparent transparent #F00;
+}
+
+.discount {
+    border-color: #4DD2D9 transparent transparent #4DD2D9;
+}
+
+.sales span, .discount span {
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #272626, 0 0 0 grey;
+    margin: -26px 0 0 -32px;
+    font-size: 14px;
+}
+
+.sales span {
+    font-size: 14px;
+    transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg); /* Äëÿ Firefox */
+    -ms-transform: rotate(-40deg); /* Äëÿ IE */
+    -webkit-transform: rotate(-40deg); /* Äëÿ Safari, Chrome, iOS */
+    -o-transform: rotate(-40deg); /* Äëÿ Opera */
+}
+
+.discount span {
+    font-size: 12px;
+    transform: rotate(-38deg);
+    -moz-transform: rotate(-38deg); /* Äëÿ Firefox */
+    -ms-transform: rotate(-38deg); /* Äëÿ IE */
+    -webkit-transform: rotate(-38deg); /* Äëÿ Safari, Chrome, iOS */
+    -o-transform: rotate(-38deg); /* Äëÿ Opera */
+}
