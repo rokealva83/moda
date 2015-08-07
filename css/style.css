@@ -200,12 +200,16 @@ h4 {
 
 .products-element {
     float: left;
-    margin: 0 6px 10px 5px;
+    margin: 0 5px 10px 5px;
     box-shadow: 1px 1px 2px 0 #959494;
 }
 
 .products-element:hover {
     box-shadow: 3px 3px 4px 0 rgba(255, 83, 83, 0.37);
+}
+
+.products-element:hover > .description {
+    display: block;
 }
 
 .last-element {
@@ -259,4 +263,99 @@ h4 {
     -ms-transform: rotate(-38deg); /* Äëÿ IE */
     -webkit-transform: rotate(-38deg); /* Äëÿ Safari, Chrome, iOS */
     -o-transform: rotate(-38deg); /* Äëÿ Opera */
+}
+
+.description {
+    display: none;
+    position: absolute;
+    padding: 197px 0 0 0;
+    box-shadow: 1px 1px 2px 0 #959494;
+}
+
+.price-block {
+    padding: 0 0 0 80px;
+}
+
+.price {
+    background-color: #FF5353;
+    color: rgb(255, 255, 255);
+    width: 68px;
+    height: 68px;
+    border-radius: 34px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    font-weight: 700;
+}
+
+.description-text {
+    background-color: rgb(255, 255, 255);
+    margin-top: -16px;
+    padding-top: 8px;
+    width: 227px;
+    height: 105px;
+}
+
+.description-text p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.star {
+    text-align: center;
+    margin-top: -4px;
+}
+
+.korf-block {
+    padding: 27px 0 0 16px;
+    font-size: 10px;
+}
+
+.korf {
+    float: left;
+}
+
+.korf span {
+    margin-left: 3px;
+}
+
+.korf img {
+    margin-top: -15px;
+}
+
+.add-element {
+    margin-top: -8px;
+}
+
+.add-element p {
+    text-align: left;
+    margin-left: 110px;
+}
+
+.plus {
+    color: #FF5353;
+}
+
+.add-element-text {
+    margin-left: 3px;
+}
+
+.social {
+    width: 980px;
+    margin: auto;
+    padding-top: 28px;
+}
+
+.social-block {
+    float: left;
+    width: 300px;
+    padding-left: 19px;
+}
+
+.social-block h4 {
+    font-stretch: condensed;
+}
+
+.facebook {
+    margin: 0 24px 0 51px;
 }

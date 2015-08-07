@@ -6,4 +6,8 @@ $(document).ready(function () {
         autoplaySpeed: 5000,
         asNavFor: '.my-carousel'
     });
+
 });
+
+
+
